@@ -14,6 +14,9 @@ enum CameraType {
     case Back
 }
 
+
+
+
 class ViewController: UIViewController {
     var camera: CameraType = .Back
 //    var flash: AVCaptureDevice.FlashMode = .off
