@@ -16,6 +16,8 @@
 		8D4B8B802A835D160032AA26 /* camera_using_capture_photo_AVFoundationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B8B7F2A835D160032AA26 /* camera_using_capture_photo_AVFoundationTests.swift */; };
 		8D4B8B8A2A835D160032AA26 /* camera_using_capture_photo_AVFoundationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B8B892A835D160032AA26 /* camera_using_capture_photo_AVFoundationUITests.swift */; };
 		8D4B8B8C2A835D160032AA26 /* camera_using_capture_photo_AVFoundationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B8B8B2A835D160032AA26 /* camera_using_capture_photo_AVFoundationUITestsLaunchTests.swift */; };
+		8D4B8B992A836BC70032AA26 /* ShowImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D4B8B982A836BC70032AA26 /* ShowImageViewController.swift */; };
+		8DDE6A2B2A8651A5002158F3 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDE6A2A2A8651A5002158F3 /* LiveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		8D4B8B852A835D160032AA26 /* camera using capture photo AVFoundationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "camera using capture photo AVFoundationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D4B8B892A835D160032AA26 /* camera_using_capture_photo_AVFoundationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = camera_using_capture_photo_AVFoundationUITests.swift; sourceTree = "<group>"; };
 		8D4B8B8B2A835D160032AA26 /* camera_using_capture_photo_AVFoundationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = camera_using_capture_photo_AVFoundationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8D4B8B982A836BC70032AA26 /* ShowImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImageViewController.swift; sourceTree = "<group>"; };
+		8DDE6A2A2A8651A5002158F3 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				8D4B8B682A835D140032AA26 /* AppDelegate.swift */,
 				8D4B8B6A2A835D140032AA26 /* SceneDelegate.swift */,
 				8D4B8B6C2A835D140032AA26 /* ViewController.swift */,
+				8D4B8B982A836BC70032AA26 /* ShowImageViewController.swift */,
+				8DDE6A2A2A8651A5002158F3 /* LiveViewController.swift */,
 				8D4B8B6E2A835D140032AA26 /* Main.storyboard */,
 				8D4B8B712A835D160032AA26 /* Assets.xcassets */,
 				8D4B8B732A835D160032AA26 /* LaunchScreen.storyboard */,
@@ -261,6 +267,8 @@
 				8D4B8B6D2A835D140032AA26 /* ViewController.swift in Sources */,
 				8D4B8B692A835D140032AA26 /* AppDelegate.swift in Sources */,
 				8D4B8B6B2A835D140032AA26 /* SceneDelegate.swift in Sources */,
+				8D4B8B992A836BC70032AA26 /* ShowImageViewController.swift in Sources */,
+				8DDE6A2B2A8651A5002158F3 /* LiveViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +445,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J9WNYC5Y9P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "camera using capture photo AVFoundation/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -464,6 +473,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = J9WNYC5Y9P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "camera using capture photo AVFoundation/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
